@@ -1,4 +1,5 @@
 {% extends 'base/base.html' %}
+{% load static %}
 
 {% block content %}
     <section class="section1">
@@ -15,16 +16,23 @@
                         <div id="dot-3" class="browser-dots"></div>
                     </div>
 
-                    <ul class="navigation">
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
+                    <ul id="navigation">
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="left-column">
-                    Left-column
+                    <img id="profile_picture" src="{% static '/images/profile-photo.jpg' %}" alt="profile-picture">
+                    <h5 style="text-align: center;line-height: 0">Personalize Theme</h5>
+                    <div id="theme-options-wrapper">
+                        <div id="light-mode" class="theme-dot"></div>
+                        <div id="blue-mode" class="theme-dot"></div>
+                        <div id="green-mode" class="theme-dot"></div>
+                        <div id="purple-mode" class="theme-dot"></div>
+                    </div>
+                    <p id="settings-note">/*Theme options will be saved for <br> your next visit.*/</p>
                 </div>
+
 
                 <div class="right-column">
                     Right-Column
