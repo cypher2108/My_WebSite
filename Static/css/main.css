@@ -164,8 +164,10 @@ h6 {
 
     height: 200px;
     width: 200px;
+    border-radius: 50%;
+
     object-fit: cover;
-    border: 2px solid var(--borderColor);
+    border: 5px solid var(--themeDotBorder);
 }
 
 #theme-options-wrapper {
@@ -271,6 +273,19 @@ h6 {
     bottom: -5px;
     left: -5px;
 
+}
+
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
 }
 
 @media screen and (max-width: 1200px) {
