@@ -288,6 +288,10 @@ h6 {
     background-color: var(--previewShadow);
 }
 
+#banner{
+    width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;
