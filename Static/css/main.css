@@ -280,6 +280,7 @@ h6 {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-top: 50px;
     padding-bottom: 50px;
+    gap: 100px;
 }
 
 #skills{
@@ -290,6 +291,12 @@ h6 {
 
 #banner{
     width: 100%;
+}
+
+.social-me{
+    display: grid;
+    align-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
