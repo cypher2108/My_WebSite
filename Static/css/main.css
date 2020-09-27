@@ -5,7 +5,7 @@
     --secondaryColor: #fff;
     --borderColor: #c1c1c1;
     --themeDotBorder: #24292e;
-    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewBg: rgba(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
     --buttonColor: black;
 }
@@ -13,6 +13,10 @@
 html, body {
     padding: 0;
     margin: 0;
+}
+
+body *{
+    transition: 0.3s;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -320,13 +324,6 @@ h6 {
     box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
 }
 
-/*.post {*/
-/*    border: 1px solid var(--borderColor);*/
-/*    -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);*/
-/*    -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);*/
-/*    box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);*/
-
-/*}*/
 
 .thumbnail {
     display: block;
