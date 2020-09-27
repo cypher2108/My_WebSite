@@ -5,7 +5,7 @@
     --secondaryColor: #fff;
     --borderColor: #c1c1c1;
     --themeDotBorder: #24292e;
-    --previewBg: rgb(251, 249, 243);
+    --previewBg: rgb(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
     --buttonColor: black;
 }
@@ -111,6 +111,9 @@ h6 {
     justify-content: space-between;
     align-items: center;
     background-color: var(--mainColor);
+}
+#navigation a{
+    color: var(--mainText);
 }
 
 .dots-wrapper {
